@@ -1,0 +1,26 @@
+Oct 01 23:09:31.697 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Oct 01 23:09:31.698 HYPERVISOR: Started on IP = localhost, TCP port = 1397.
+Oct 01 23:09:31.859 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 01 23:09:31.860 HYPERVISOR: exec_cmd: hypervisor working_dir D:\GNS3\tacacs\project-files\dynamips 
+Oct 01 23:09:31.874 GENERAL: working_dir=D:\GNS3\tacacs\project-files\dynamips
+Oct 01 23:09:31.874 HYPERVISOR: exec_cmd: hypervisor working_dir D:\GNS3\tacacs\project-files\dynamips\b5f1dcd1-392f-415a-8af5-1cc97f0d8d3e 
+Oct 01 23:09:31.874 GENERAL: working_dir=D:\GNS3\tacacs\project-files\dynamips\b5f1dcd1-392f-415a-8af5-1cc97f0d8d3e
+Oct 01 23:09:31.875 HYPERVISOR: exec_cmd: vm create R1 1 c3725 
+Oct 01 23:09:31.876 VM: VM R1 created.
+Oct 01 23:09:31.878 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5000 
+Oct 01 23:09:31.878 HYPERVISOR: exec_cmd: c3725 get_mac_addr R1 
+Oct 01 23:09:31.878 HYPERVISOR: exec_cmd: vm set_disk0 R1 1 
+Oct 01 23:09:31.878 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+Oct 01 23:09:31.878 HYPERVISOR: exec_cmd: vm get_status R1 
+Oct 01 23:09:31.878 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x602893ac 
+Oct 01 23:09:31.881 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/Jay/GNS3/images/IOS/c3725-adventerprisek9-mz.124-7.image 
+Oct 01 23:09:31.881 HYPERVISOR: exec_cmd: c3725 set_mac_addr R1 c201.1ea8.0000 
+Oct 01 23:09:31.882 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Oct 01 23:09:31.882 HYPERVISOR: exec_cmd: vm get_status R1 
+Oct 01 23:09:31.882 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 NM-1FE-TX 
+Oct 01 23:09:34.434 HYPERVISOR: exec_cmd: nio create_udp udp-448bd28c-23fb-4886-bed0-27c5e0050c8e 10002 127.0.0.1 10003 
+Oct 01 23:09:34.667 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 1 0 udp-448bd28c-23fb-4886-bed0-27c5e0050c8e 
+Oct 01 23:09:34.667 HYPERVISOR: exec_cmd: vm get_status R1 
+Oct 01 23:09:36.039 HYPERVISOR: exec_cmd: nio create_udp udp-b0325282-6787-4620-87e1-2bf87c9d1839 10016 127.0.0.1 10017 
+Oct 01 23:09:36.053 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-b0325282-6787-4620-87e1-2bf87c9d1839 
+Oct 01 23:09:36.053 HYPERVISOR: exec_cmd: vm get_status R1 

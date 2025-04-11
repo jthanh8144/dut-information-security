@@ -1,0 +1,29 @@
+Oct 01 23:09:31.919 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Oct 01 23:09:31.919 HYPERVISOR: Started on IP = localhost, TCP port = 1401.
+Oct 01 23:09:32.432 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 01 23:09:32.432 HYPERVISOR: exec_cmd: hypervisor working_dir D:\GNS3\tacacs\project-files\dynamips 
+Oct 01 23:09:32.432 GENERAL: working_dir=D:\GNS3\tacacs\project-files\dynamips
+Oct 01 23:09:32.432 HYPERVISOR: exec_cmd: hypervisor working_dir D:\GNS3\tacacs\project-files\dynamips\235741f7-ea6f-4a11-ba97-d8a5af809dcd 
+Oct 01 23:09:32.432 GENERAL: working_dir=D:\GNS3\tacacs\project-files\dynamips\235741f7-ea6f-4a11-ba97-d8a5af809dcd
+Oct 01 23:09:32.443 HYPERVISOR: exec_cmd: vm create TACACS 2 c3725 
+Oct 01 23:09:32.444 VM: VM TACACS created.
+Oct 01 23:09:32.444 HYPERVISOR: exec_cmd: vm set_con_tcp_port TACACS 5001 
+Oct 01 23:09:32.445 HYPERVISOR: exec_cmd: c3725 get_mac_addr TACACS 
+Oct 01 23:09:32.445 HYPERVISOR: exec_cmd: vm set_disk0 TACACS 1 
+Oct 01 23:09:32.445 HYPERVISOR: exec_cmd: vm set_exec_area TACACS 64 
+Oct 01 23:09:32.446 HYPERVISOR: exec_cmd: vm get_status TACACS 
+Oct 01 23:09:32.446 HYPERVISOR: exec_cmd: vm set_idle_pc TACACS 0x602893ac 
+Oct 01 23:09:32.447 HYPERVISOR: exec_cmd: vm set_ios TACACS C:/Users/Jay/GNS3/images/IOS/c3725-adventerprisek9-mz.124-7.image 
+Oct 01 23:09:32.447 HYPERVISOR: exec_cmd: c3725 set_mac_addr TACACS c202.3614.0000 
+Oct 01 23:09:32.447 HYPERVISOR: exec_cmd: vm set_nvram TACACS 256 
+Oct 01 23:09:32.448 HYPERVISOR: exec_cmd: vm get_status TACACS 
+Oct 01 23:09:32.448 HYPERVISOR: exec_cmd: vm slot_add_binding TACACS 1 0 NM-1FE-TX 
+Oct 01 23:09:34.674 HYPERVISOR: exec_cmd: nio create_udp udp-4114e0d2-06ae-4227-a3a8-1814cc86056d 10004 127.0.0.1 10005 
+Oct 01 23:09:34.925 HYPERVISOR: exec_cmd: vm slot_add_nio_binding TACACS 1 0 udp-4114e0d2-06ae-4227-a3a8-1814cc86056d 
+Oct 01 23:09:34.926 HYPERVISOR: exec_cmd: vm get_status TACACS 
+Oct 01 23:09:34.961 HYPERVISOR: exec_cmd: nio create_udp udp-923182c4-b4eb-44f9-825f-f8cc32e46711 10008 127.0.0.1 10009 
+Oct 01 23:09:34.964 HYPERVISOR: exec_cmd: vm slot_add_nio_binding TACACS 0 1 udp-923182c4-b4eb-44f9-825f-f8cc32e46711 
+Oct 01 23:09:34.964 HYPERVISOR: exec_cmd: vm get_status TACACS 
+Oct 01 23:09:35.678 HYPERVISOR: exec_cmd: nio create_udp udp-780eb1ba-d12d-4dcc-8e8d-bff41decf1eb 10012 127.0.0.1 10013 
+Oct 01 23:09:35.681 HYPERVISOR: exec_cmd: vm slot_add_nio_binding TACACS 0 0 udp-780eb1ba-d12d-4dcc-8e8d-bff41decf1eb 
+Oct 01 23:09:35.681 HYPERVISOR: exec_cmd: vm get_status TACACS 
